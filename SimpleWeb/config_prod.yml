@@ -1,0 +1,16 @@
+application:
+  name: demo_prod
+  metadata: "prod Env"
+  server:
+    type: "fasthttp"
+    address: ":8080"
+    max_request_size: 2096157
+    static:
+      patten: "/"
+      webroot: "./Static"
+    jwt:
+      header: "Authorization"
+      secret: "12391JdeOW^%$#@"
+      prefix: "Bearer"
+      expires: 3
+      enable: true
