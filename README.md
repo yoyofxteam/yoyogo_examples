@@ -1,5 +1,4 @@
-[![yoyofx's github stats](https://github-readme-stats.vercel.app/api?username=yoyofx&show_icons=true)](https://github.com/yoyofx/github-readme-stats)
-
+# 本实例基于yoyogo v1.5.2
 # 特色
 - 漂亮又快速的路由器
 - 中间件支持 (handler func & custom middleware)
@@ -9,8 +8,13 @@
 [![](Resources/dingdingQR.jpg)](https://sourcerer.io/yoyofx)
 
 # 框架安装
+## go get
 ```bash
 go get github.com/yoyofx/yoyogo
+```
+## go.mod
+```
+require github.com/yoyofx/yoyogo v1.5.2
 ```
 # 安装依赖 (由于某些原因国内下载不了依赖)
 ##  go version < 1.13
